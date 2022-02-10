@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cours070222:
+    image: cours070222
+    build:
+      context: .
+      dockerfile: ./Dockerfile
